@@ -57,18 +57,3 @@ int	ft_printf(const char *format, ...)
 	va_end(ap);
 	return (res);
 }
-
-#include <stdio.h>
-#include <limits.h>
-
-int main(void)
-{
- 	int output_OG;
-	int output_FT;
- 	ft_printf("INT_MIN--------------------\n");
- 	output_OG = printf("OG -> %d\n", INT_MIN);
- 	output_FT = ft_printf("FT -> %d\n", INT_MIN);
- 	printf("OUTPUT OG = %d\n", output_OG);
- 	ft_printf("OUTPUT FT = %d\n", output_FT);
- 	return (0);
-}
