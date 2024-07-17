@@ -1,0 +1,6 @@
+*.o
+**/*.o
+printftest.c
+*.a
+**/*.a
+a.out
