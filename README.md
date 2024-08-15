@@ -41,7 +41,7 @@ make
 
 ## Usage
 
-Add `#include "<path>/libftprintf.h"` to your source file that is using functions to the library.  
+Add `#include "<path>/libftprintf.h"` to your source file that uses the libftprintf library functions.  
 Substitute `<path>` for the path to the ft_printf folder: 
 
 ```c
