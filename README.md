@@ -8,33 +8,35 @@
 
 ## About
 
- The goal of this project is pretty straightforward: to recode printf() function.  
- This function was added to my library [libft](https://github.com/marianaobmorais/libft/).
+The goal of this project is to recode printf() function.  
+In doing so, I have learned the importance of variadic fucntions and how to use them, and I have deepened my knowledge in format specifiers.
 
 The mandatory conversions to be implemented:  
-**%c** Prints a single character.  
-**%s** Prints a string (as defined by the common C convention).  
-**%p** The void * pointer argument has to be printed in hexadecimal format.  
-**%d** Prints a decimal (base 10) number.  
-**%i** Prints an integer in base 10.  
-**%u** Prints an unsigned decimal (base 10) number.  
-**%x** Prints a number in hexadecimal (base 16) lowercase format.  
-**%X** Prints a number in hexadecimal (base 16) uppercase format.  
-**%%** Prints a percent sign.  
+`%c` Prints a single character.  
+`%s` Prints a string (as defined by the common C convention).  
+`%p` The void * pointer argument has to be printed in hexadecimal format.  
+`%d` Prints a decimal (base 10) number.  
+`%i` Prints an integer in base 10.  
+`%u` Prints an unsigned decimal (base 10) number.  
+`%x` Prints a number in hexadecimal (base 16) lowercase format.  
+`%X` Prints a number in hexadecimal (base 16) uppercase format.  
+`%%` Prints a percent sign.  
 
 The buffer management of the original printf() was not implemented.
 
+This function was added to my library [libft](https://github.com/marianaobmorais/libft/).
+
 ## Build
 
- Clone the repository: 
- ```shell
+Clone the repository: 
+```shell
 git clone https://github.com/marianaobmorais/ft_printf.git
 ```
- Enter the clonned directory:
- ```shell
+Enter the clonned directory:
+```shell
 cd ft_printf
 ```
-Finally, run `make` to compile the libftprintf.a:
+Run `make` to compile the libftprintf.a:
 ```shell
 make
 ```
