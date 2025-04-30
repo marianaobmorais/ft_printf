@@ -9,7 +9,9 @@
 ## About
 
 The goal of this project is to recode printf() function.  
-In doing so, I have learned the importance of variadic fucntions and how to use them, and I have deepened my knowledge in format specifiers.
+In doing so, I have learned the importance of variadic functions and how to use them, and I have deepened my knowledge in format specifiers.
+
+## Features
 
 The mandatory conversions to be implemented:  
 `%c` Prints a single character.  
